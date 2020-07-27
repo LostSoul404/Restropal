@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+
+/******************************** Navbar ****************************/
+* {
+	outline: 0;
+}
+
+.navbar {
+	padding: 0 45px;
+	background-color: #002863 !important;
+	padding-bottom: 1000px;
+}
+
+.navbar-brand img {
+	height: 40px;
+}
+
+.navbar li a i {
+	color: white;
+}
+
+.navbar-nav ul li a {
+	color: white !important;
+	display: block;
+}
+
+@media only screen and (min-device-width:769px) and (max-device-width:1024px) {
+	.navbar {
+		padding: 0 25px;
+	}
+
+	.navbar-brand img {
+		width: 120px !important;
+		padding-top: 5px;
+	}
+
+	.navbar .navbar-nav {
+		display: inline-block;
+		float: none;
+		vertical-align: top;
+	}
+
+}
+
+@media only screen and (min-device-width:320px) and (max-device-width:480px) {
+	.navbar {
+		padding: 0 15px;
+	}
+
+	.navbar-brand img {
+		width: 120px !important;
+		padding-top: 5px;
+	}
+
+	.navbar .navbar-nav {
+		display: inline-block;
+		float: none;
+		vertical-align: top;
+	}
+
+	.navbar .navbar-collapse {
+		text-align: center !important;
+	}
+
+}
+
+/******************************* Top-Heading *******************************/
+.hero {
+	background: #002863;
+	color: #fff;
+	padding: 4rem 0 11rem 0;
+}
+
+.hero .hero-body {
+	padding: 0;
+}
+
+.hero .hero-body .headline {
+	padding: 4rem 0;
+}
+
+.hero .hero-body .headline .title, .hero .hero-body .headline .subtitle {
+	color: #fff !important;
+}
+
+.hero .hero-body .headline .title {
+	font-size: 65px;
+	font-weight: 500;
+	margin: 0 auto 3rem;
+	max-width: 900px;
+}
+
+.hero .hero-body .headline .subtitle {
+	font-size: 1.8rem;
+	font-weight: 300;
+	margin-bottom: 2rem;
+}
+
+@media only screen and (max-width:450px) {
+	.hero .hero-body .headline .title {
+		font-size: 2.8rem;
+	}
+
+	.hero .hero-body .headline .title {
+		font-size: 2rem;
+		font-weight: 400;
+		margin: 0 auto 2rem;
+		max-width: 500px;
+	}
+
+	.hero .hero-body .headline .subtitle {
+		font-size: 1rem;
+		font-weight: 200;
+		margin-bottom: 2rem;
+	}
+
+}
+
+/************************************* Mockup ************************************/
+.mockup {
+	margin-top: -11rem;
+	text-align: center;
+	padding-bottom: 70px;
+}
+
+.mockup img {
+	height: 470px;
+	width: 90%;
+	border-radius: 8px;
+	-webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+@media only screen and (max-width:450px) {
+	.mockup img {
+		width: 100%;
+		height: 230px;
+	}
+
+}
+
+@media only screen and (min-width:1150px) {
+	.mockup img {
+		width: 80%;
+	}
+
+}
+
+/************************* Core-Features **************************/
+.core-features h4 {
+	padding-top: 11% !important;
+}
+
+@media only screen and (min-width:1150px) {
+	.core-features img {
+		height: 90%;
+		width: 350px;
+		margin-left: 20%;
+	}
+
+}
+
+@media only screen and (min-device-width:320px) and (max-device-width:480px) {
+	.core-features img {
+		max-width: 80% !important;
+		height: auto;
+		margin-left: 10%;
+	}
+
+}
+
+/***************************** More-features **************************
+*/
+.more-features {
+	background: #002863 !important;
+	color: white;
+	padding-top: 10px;
+}
+
+#more-section {
+	padding: 40px;
+}
+
+.more i {
+	padding: 10px;
+}
+
+.card {
+	background-color: #002863 !important;
+	border: none !important;
+}
+
+.btn {
+	margin: 35px;
+}
+
+.spinner-grow-sm {
+	margin: 2px !important;
+}
+
+/************************Footer*********************/
+section {
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+#section .section-title {
+	text-align: center;
+	color: #007b5e;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+}
+
+#footer {
+	background: #042E4E !important;/*#7a0000*/
+
+	/*#03625e*/padding-left: 15% !important;
+	padding-right: 15% !important;
+}
+
+#footer a {
+	color: #ffffff;
+	text-decoration: none !important;
+	background-color: transparent;
+	-webkit-text-decoration-skip: objects;
+}
+
+#footer ul.social li a i {
+	font-size: 25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+
+.list-inline {
+	padding-right: 22%;
+}
+
+#footer ul.quick-links li {
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+
+#footer ul.quick-links li:hover {
+	padding: 3px 0;
+	margin-left: 5px;
+	font-weight: 700;
+}
+
+#footer ul.quick-links li a i {
+	margin-right: 5px;
+}
+
+#footer ul.quick-links li:hover a i {
+	font-weight: 700;
+}
+
+@media (max-width:767px) {
+	#footer h5 {
+		padding-left: 0;
+		border-left: transparent;
+		padding-bottom: 0px;
+		margin-bottom: 10px;
+	}
+
+}
+
+@media only screen and (min-device-width:320px) and (max-device-width:480px) {
+	#footer ul.quick-links li {
+		-webkit-transition: .5s all ease;
+		-moz-transition: .5s all ease;
+		transition: .5s all ease;
+	}
+
+	#footer ul li {
+		position: relative;
+		right: 20%;
+		text-align: left;
+		font-size: 15px;
+	}
+
+	#footer p {
+		position: relative;
+		right: 20%;
+		text-align: left;
+		font-size: 15px;
+	}
+
+	.list-inline {
+		padding-right: 0;
+	}
+
+	#style {
+		text-align: left;
+		padding-top: 5px;
+	}
+
+}
+
+/************************* contact-us-button image section ************************/
+.contact-us-button {
+	background: url(..//images/res.jpg) no-repeat center center fixed;
+	color: black;
+	padding-top: 150px;
+	padding-bottom: 70px;
+}
+
+@media only screen and (max-width:450px) {
+	.contact-us-button h1 {
+		font-size: 20px;
+	}
+
+	.contact-us-button h5 {
+		font-size: 12px;
+		padding-top: none;
+		padding-bottom: none;
+	}
+
+	.contact-us-button .btn {
+		font-size: 12px;
+		padding: none;
+		margin: 0;
+	}
+
+	.contact-us-button {
+		padding-top: 70px;
+		padding-bottom: 30px;
+	}
+
+}
+
+/**********************Footer-Buttom*******************/
+.footer-bottom {
+	padding-top: 10px;
+	padding-bottom: 5px;
+	color: white;
+	background-color: #053861 !important; /*#560606*/
+
+	/*#00504c*/
+}
+
+/******************* Heading for all *******************/
+.heading {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+/******************* Contact-us ************************/
+.border-left {
+	border-left: #cccccc solid 1px;
+}
+
+/******************* Sales******************************/
+.sales-texts p {
+	color: #808080;
+}
+
+/******************* Privacy ***************************/
+.privacy-texts ul li {
+	color: #808080;
+	padding-bottom: 15px;
+}
+
+/******************* Terms *****************************/
+#term-texts p {
+	color: #808080;
+	margin-bottom: 0;
+}
